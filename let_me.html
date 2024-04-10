@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = 'stylesheet' href = 'style.css'>
+
+</head>
+<body>
+    <div class = "top">
+        <h1>Let me introduce myself!</h1>
+    </div>
+    <div class="container">
+        <div class = 'image' >
+            <img src="IMG_2739.jpeg">
+        </div>
+        <div class="center">
+            <p><strong>이름:</strong> 신상현</p>
+            <p><strong>나이:</strong> 24</p>
+            <p><strong>학과:</strong> GBT/AI(software)</p>
+            <p><strong>MBTI:</strong> INTJ</p>
+            <p><strong>Instagram: </strong>01__ssh</p>
+            <button id="instagramBtn">인스타그램으로 가기</button>
+            <p><strong>취미: </strong> 헬스</p>
+            <p><strong>좋아하는 음식: </strong> 라멘, 국밥, 고기 등등 </p>
+            <p><strong>좋아하는 노래: </strong>혁오의 Love YA!</p>
+            <button id="youtubeMusicBtn">Love Ya 듣기</button>
+            <p><strong>Tmi</strong>:</strong> 과제하려했는데 컴퓨터 고장나서</p>
+            <p>부팅하는 동안 와이어 프레임 고침ㅎ</p>
+
+        </div>
+        <div class = 'image'>
+            <img src ="IMG_4919.jpeg">
+        </div>
+    </div>
+    <script>
+        document.getElementById('instagramBtn').addEventListener('click', function() {
+            window.open('https://www.instagram.com/01__ssh', '_blank');
+        });
+        document.getElementById('youtubeMusicBtn').addEventListener('click', function() {
+            window.open('https://music.youtube.com/search?q=love%20ya', '_blank');
+        });
+    </script>
+</body>
+</html>
+
